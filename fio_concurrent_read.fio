@@ -15,6 +15,7 @@ time_based
 runtime=10m
 file_service_type=random
 numjobs=${NUMJOBS}
+filename_format=$filenum
 
 [Workload]
 directory=${DIR}/Workload.0/
