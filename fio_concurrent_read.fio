@@ -12,7 +12,7 @@ group_reporting=1
 create_serialize=0
 allrandrepeat=0
 time_based
-runtime=10m
+runtime=20m
 file_service_type=random
 numjobs=${NUMJOBS}
 filename_format=$filenum
