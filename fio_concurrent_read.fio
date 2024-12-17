@@ -5,9 +5,9 @@ direct=1
 fadvise_hint=0
 iodepth=64
 invalidate=1
-nrfiles=${NRFILES}
+nrfiles=1
 thread=1
-openfiles=${NRFILES}
+openfiles=1
 group_reporting=1
 create_serialize=0
 allrandrepeat=0
@@ -18,7 +18,7 @@ numjobs=${NUMJOBS}
 filename_format=$filenum
 
 [Workload]
-directory=${DIR}/Workload.0/
+directory=${DIR}/Workload.1/
 bs=${BLOCK_SIZE}
 filesize=${FILE_SIZE}
 rw=randread
