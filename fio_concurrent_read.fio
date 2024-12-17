@@ -17,7 +17,7 @@ file_service_type=random
 numjobs=${NUMJOBS}
 
 [Workload]
-directory=/home/abhishekmgupta_google_com/bucket/Workload.0
+directory=${DIR}/Workload.0/
 bs=${BLOCK_SIZE}
 filesize=${FILE_SIZE}
 rw=randread
