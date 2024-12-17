@@ -1,0 +1,23 @@
+; -- use nrfiles and rw to CLI args to control readtype and number of files --
+[global]
+ioengine=libaio
+direct=1
+fadvise_hint=0
+iodepth=64
+invalidate=1
+nrfiles=${NRFILES}
+thread=1
+openfiles=${NRFILES}
+group_reporting=1
+create_serialize=0
+allrandrepeat=0
+time_based
+runtime=15m
+file_service_type=random
+numjobs=${NUMJOBS}
+
+[Workload]
+directory=/home/abhishekmgupta_google_com/bucket/Workload.0
+bs=${BLOCK_SIZE}
+filesize=${FILE_SIZE}
+rw=randread
