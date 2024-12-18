@@ -15,10 +15,9 @@ time_based
 runtime=20m
 file_service_type=random
 numjobs=${NUMJOBS}
-filename_format=$filenum
+filename=${DIR}/Workload.0/0
 
 [Workload]
-directory=${DIR}/Workload.1/
 bs=${BLOCK_SIZE}
 filesize=${FILE_SIZE}
 rw=randread
