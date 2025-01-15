@@ -16,7 +16,7 @@ numjobs=${NUMJOBS}
 filename_format=$jobname.$jobnum/$filenum
 
 [Workload]
-directory=${DIRi}/{FILE_SIZE}
+directory=${DIR}/${FILE_SIZE}
 bs=${BLOCK_SIZE}
 filesize=${FILE_SIZE}
 rw=${READ_TYPE}
